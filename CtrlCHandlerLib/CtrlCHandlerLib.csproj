@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <Target Name="RunPostBuildScript" AfterTargets="Build">
+    <Copy SourceFiles="$(ProjectDir)\bin\Release\net9.0\CtrlCHandlerLib.dll" DestinationFolder="$(SolutionDir)\example_PowerShell" />
+  </Target>
+
+</Project>
