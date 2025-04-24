@@ -19,4 +19,4 @@ Windowsコンソールアプリケーションで Ctrl+C (SIGINT) シグナル�
 * C#の例
   * example_csharp/example_csharp.cs
 * PowerShellスクリプトの例
-  * example_PowerShell/xample_PowerShell.ps1
+  * example_PowerShell/example_PowerShell.ps1
